@@ -4,8 +4,8 @@ import requests
 import json
 from telebot import types
 
-bot = telebot.TeleBot('7898677651:AAELzbgPSPmeK4r-REMiR8do8ESWUuIw9Fc')
-API = '4185b42ecb1f6bfa283f923b456889af'
+bot = telebot.TeleBot("TELEGRAM_BOT_TOKEN")
+API = "WEATHER_API_KEY"
 lastMessages = {}
 
 def checkExistanceOfWebsite(link):
